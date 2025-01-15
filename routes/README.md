@@ -1,8 +1,15 @@
-# React + Vite
+# Rotas em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React-router-dom: Biblioteca voltada para ambientes de React e React Native para criação de roteamento de páginas dentro de aplicações.
 
-Currently, two official plugins are available:
+Para usá-lo é necessário baixá-lo pelo terminal usando:
+"npm i react-router-dom"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Após a instalação do pacote é possível acessar suas funcionalidades dentro do projeto.
+
+Funcionalidades usada nesse projeto:
+- createBrowserRouter: Principal funcionalidades, responsável por gerenciar as rotas dependendo da URL
+- RouterProvider: Integra as rotas criadas na aplicação React
+- router: Configuração das rotas criadas
+- Outlet: É responsável por mostrar onde as sub-rotas devem ser renderizadas
+- Link: Funcionalidade que cria links entre as páginas nem a necessidade de carregamento
