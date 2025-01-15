@@ -8,7 +8,7 @@ Para usá-lo é necessário baixá-lo pelo terminal usando:
 Após a instalação do pacote é possível acessar suas funcionalidades dentro do projeto.
 
 Funcionalidades usada nesse projeto:
-- createBrowserRouter: Principal funcionalidades, responsável por gerenciar as rotas dependendo da URL
+- createBrowserRouter: Principal funcionalidade, responsável por gerenciar as rotas dependendo da URL
 - RouterProvider: Integra as rotas criadas na aplicação React
 - router: Configuração das rotas criadas
 - Outlet: É responsável por mostrar onde as sub-rotas devem ser renderizadas
