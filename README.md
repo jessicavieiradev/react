@@ -13,10 +13,10 @@
       As metadatas são como "etiquetas" do seu site, onde possui as propriedades dele, usadas para melhorar o SEO do site pelos motores de pesquisa. No Nextjs elas podem ser definidas globalmente colocando-as no arquivo de layout dentro da pasta App, ou criando dentro da pasta de uma rota para ser usada apenas naquela página especificada. Algumas metadatas:
       <ul>
       <li>
-         title -> nome da página exibido na a aba do site
-         description -> descrição do site ou página mostrado de prévia no site ao ser indexado
-        onGraph -> usado para personalizar como gostaria de ser exibida a prévia do seu site ao compartilhá-lo como link, podendo por o título, descrição e imagem
-        robots -> O atributo robots é utilizado pelos motores de busca para controlar como eles devem interagir com uma página. Ele define se a página deve ser indexada, ou seja, se ela pode aparecer nos resultados de pesquisa, e se os links dentro dessa página devem ser seguidos. Esses links podem levar a outras páginas, e você tem a opção de escolher se eles devem ou não ser considerados relevantes para o SEO. Uma prática recomendada é não seguir links pagos (como anúncios ou links patrocinados), pois os motores de busca, como o Google, não apoiam a transferência de autoridade por meio desses links. Assim, usar a diretiva nofollow nesses casos ajuda a evitar comprometer o SEO do seu site.
+         title -> nome da página exibido na a aba do site</li>
+         <li>description -> descrição do site ou página mostrado de prévia no site ao ser indexado</li>
+        <li>onGraph -> usado para personalizar como gostaria de ser exibida a prévia do seu site ao compartilhá-lo como link, podendo por o título, descrição e imagem</li>
+        <li>robots -> O atributo robots é utilizado pelos motores de busca para controlar como eles devem interagir com uma página. Ele define se a página deve ser indexada, ou seja, se ela pode aparecer nos resultados de pesquisa, e se os links dentro dessa página devem ser seguidos. Esses links podem levar a outras páginas, e você tem a opção de escolher se eles devem ou não ser considerados relevantes para o SEO. Uma prática recomendada é não seguir links pagos (como anúncios ou links patrocinados), pois os motores de busca, como o Google, não apoiam a transferência de autoridade por meio desses links. Assim, usar a diretiva nofollow nesses casos ajuda a evitar comprometer o SEO do seu site.</li>
 </li>
 <li>
   
