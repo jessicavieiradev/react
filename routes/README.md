@@ -13,3 +13,6 @@ Funcionalidades usada nesse projeto:
 - router: Configuração das rotas criadas
 - Outlet: É responsável por mostrar onde as sub-rotas devem ser renderizadas
 - Link: Funcionalidade que cria links entre as páginas nem a necessidade de carregamento
+
+
+(Obs: Página criada com Vite e tailwind)
