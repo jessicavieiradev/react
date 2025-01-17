@@ -21,4 +21,11 @@
 </ul>
 </li>
 <li>SSR vs CSR: no nextjs é possivel ter componentes e páginas pré geradas no server side, onde é gerado um html da estrutura e renderizado assim que entra no site, podendo ter contato direto com api's. como por padrão é server side, para utilizar a renderização no lado do cliente é preciso por na primeira linha do arquivo o codigo 'use client'. Quando se tem informações fixas ou que sejam essenciais aparecerem bem atualizadas no site prezando também o SEO do site, o client side é o recomendado. Já se a página tiver foco no dinamismo e interação de usuário com informações que mudam bastante, seria interessante utilizar o client side, já que não é possível ter acesso ao DOM no server side, e com isso não poder utilizar, por exemplo, os hooks do react. É possível utilizar os dois em conjunto levando em consideração o objetivo de cada componente.</li>
+<li>
+Quando há código assíncrono pode ser que haja um tempo até que a requisição seja concluída. Com isso o site pode levar um tempo maior de arregamento, podendo trazer uma visão negativa para o usuário. Há duas formas comuns de lidar com isso: 
+<ul>
+<li>Dentro da pasta da rota desejada tem como criar um arquivo chamado loanding com uma fução de mesmo nome(letra maiúscula ja que seria um componente). Com isso tudo o que for colocado nessa função será renderizado enquanto a requisição está sendo feita</li>
+<li>Há tembém a forma de usar o componente Suspense do react. Ele permite renderizar componentes de forma assíncrona, ou seja, o componente que estiver dentro do Suspense vai esperar a requisição concluir para ser renderizado, sendo possível passar uma propriedade chamada Fallbsck para mostrar algum componente enquanto o componente assíncrono da página não carrega . É útil para renderizar uma página estática onde apenas uma parte dela precisa ter o carregamento de informções</li>
+</ul>
+</li>
 </ul>
